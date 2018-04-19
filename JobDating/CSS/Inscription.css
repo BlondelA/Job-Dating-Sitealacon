@@ -20,7 +20,7 @@
 
   h1, h2 {
   font-weight: normal;
-  color: #003090;
+  color: #28a745;
   }
 
   ul {
@@ -36,6 +36,7 @@
   #inputEmail, #inputPassword, #inputEntreprise{
   height: 35px;
   width: 278px;
+  border-color: #28a745; 
   }
 
   button {
@@ -46,7 +47,8 @@
   border:none;
   padding:6px 0 6px 0;
   border-radius:8px;
-  background:#003090;
+  background:#28a745;
   font:bold 13px Arial;
   color:#fff;
+  border-color: #28a745; 
   }
