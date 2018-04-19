@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Job-Dating</title>
+  <link rel="stylesheet" type="text/css" href="../CSS/Inscription.css">
+</head>
+
+<body>
+  <div id="inscription" class="Inscription">
+    <h1>Job Dating</h1>
+    <h2>Inscription</h2>
+
+    <ul>
+      <input type="email" id="inputEmail" class="form-control" placeholder="Adresse Mail" required="" autofocus=""></input>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Mot de Passe" required=""></input>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Confirmer le Mot de Passe" required=""></input>
+    </ul>
+    
+    <input type="radio" name="gender" value="Candidat">Candidat</input>
+    <input id="test" type="radio" name="gender" value="Recruteur" click="greet">Recruteur</input>
+
+    <ul>
+      <input type="name" id="inputEntreprise" class="form-control" placeholder="Nom de l'entreprise" required=""></input>
+    </ul>
+
+    <ul>
+      <router-link to="Connexion" >
+        <button>Valider</button>
+      </router-link>
+      <router-link to="Connexion" >
+        <button>Annuler</button>
+      </router-link>
+    </ul>
+
+  </div>
+</body>
+</html>
